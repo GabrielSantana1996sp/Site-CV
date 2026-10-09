@@ -17,18 +17,4 @@
     "helmet": "^7.1.0"
   }
 }
-{
-  "name": "site_gabrielsantana",
-  "version": "1.0.0",
-  "description": "Portfólio de engenharia e sistemas",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "helmet": "^7.1.0"
-  }
-}
 
