@@ -9,7 +9,7 @@ app.use(helmet());
 app.use(express.static(path.join(__dirname,"../")));
 
 app.get("/" , (req,res) => {
-    res.sendFile(path.join(__dirname,"../index.html"))
+    res.sendFile(path.join(__dirname,"/index.html"))
 });
 
 //não coloquei BD pois a intenção é o site e a apresentação conceitual
