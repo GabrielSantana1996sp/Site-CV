@@ -2,9 +2,12 @@ const express = require ("express");
 const helmet = require("helmet");
 const path = require(`path`);
 const app = express();
-const PORT = process.env.PORT  ||3000;
+const PORT = process.env.PORT ||3000;
 
 app.use(helmet());
+
+app.use(express,urlencoded({extendex:true}));
+app.use(express.json());
 
 app.use(express.static(path.join(__dirname)));
 
